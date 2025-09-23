@@ -1080,11 +1080,11 @@ form.search button:hover {
 
 .search-bottom {
     position: fixed;
-    bottom: 60px;
+    top: 70px;
     width: var(--percent100);
-    padding: 2.5em 0;
+    padding: 2em 1em;
     background-color: var(--secondary-dark-color);
-    z-index: 1000;
+    z-index: 10;
     visibility: hidden;
     opacity: 0;
     will-change: visibility, opacity;
@@ -1095,7 +1095,7 @@ form.search button:hover {
 }
 .search-bottom .t-close {
     position: absolute;
-    top: -54px;
+    bottom: -54px;
     right: 0;
 }
 .search-bottom .t-close:hover {
@@ -1140,12 +1140,13 @@ form.search button:hover {
         top: 0;
         background-color: var(--white);
         z-index: 10;
+        width: 100%;
+        height: 70px;
+        padding: 0 1em;
     }
     main {
         position: relative;
         top: 70px;
-    }
-    .site {
         padding: 0 1em;
     }
     .header-nav {
@@ -1240,6 +1241,9 @@ form.search button:hover {
         flex: 0 0 50%;
         margin-bottom: 1em !important;
     }
+    footer {
+        padding-top: 3em;
+    }
     .footer-info {
         padding: 1em 0 4em;
     }
@@ -1270,6 +1274,7 @@ form.search button:hover {
         padding-inline-start: 0 !important;
         padding-inline-end: 10px;
     }
+    
 
 }
 @media screen and (min-width: 400px) {
