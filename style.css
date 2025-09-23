@@ -1137,7 +1137,7 @@ form.search button:hover {
         margin: 0 !important;
     }
     .site {
-        padding: 0 3em;
+        padding: 0 1em;
     }
     .header-nav {
         padding: 1em 0;
@@ -1439,3 +1439,4 @@ form.search button:hover {
         align-items: center;
     }
 }
+
