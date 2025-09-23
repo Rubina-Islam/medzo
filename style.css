@@ -1137,7 +1137,7 @@ form.search button:hover {
         margin: 0 !important;
     }
     .site {
-        padding: 0 1em;
+        padding: 0 3em;
     }
     .header-nav {
         padding: 1em 0;
@@ -1248,8 +1248,13 @@ form.search button:hover {
         height: auto;
         padding: 10px 0;
     }
+    .menu-bottom .fly-item {
+        margin-top: -22px;
+        margin-right: -20px;
+        outline: 2px solid white;
+    }
     .container {
-    margin: 0 auto;
+        margin: 0 auto;
     }
     .container .flexitem {
         margin-block-start: 0 !important;
