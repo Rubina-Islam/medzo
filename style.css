@@ -18,7 +18,7 @@
     --light-text-color3: #d4d4d4;
     --border-color: #e5e8ec;
     --dark-color: #0a021c;
-    --dark-color2:rgb(25, 21, 37)c;
+    --dark-color2:rgb(25, 21, 37);
     --font-small: 13px;
     --font-smaller: 11px;
 
@@ -65,7 +65,7 @@ a {
     -webkit-tap-highlight-color: transparent;
     color: var(--dark-color);
 } 
-a:hover {
+a:hover, a:focus {
     color: var(--light-text-color);
 }
 ul {
@@ -154,10 +154,12 @@ h4 {
     flex-direction: column;
     gap: 1em;
 }
-.main-links a:hover {
+.main-links a:hover,
+.main-links a:focus {
     color: var(--secondary-color);
 }
-.second-links a:hover {
+.second-links a:hover,
+.second-links a:focus {
     color: var(--light-text-color);
 }
 
@@ -198,21 +200,24 @@ h4 {
     background-color: var(--primary-color);
     color: white;
 }
-.primary-button:hover {
+.primary-button:hover,
+.primary-button:focus {
     background-color: var(--dark-color);
 }
 .secondary-button {
     background-color: var(--secondary-dark-color);
     color: var(--white);
 }
-.secondary-button:hover {
+.secondary-button:hover,
+.secondary-button:focus {
     background-color: var(--light-bg-color);
     color: var(--secondary-dark-color);
 }
 .light-button {
     background-color: var(--light-bg-color);
 }
-.light-button:hover {
+.light-button:hover,
+.light-button:focus {
     background-color: var(--secondary-dark-color);
     color: var(--white);
 }
@@ -370,17 +375,18 @@ nav .mega li a {
     height: 45px;
     align-items: center;
 }
-.dpt-menu .has-child:hover ul {
+.dpt-menu .has-child:hover, .dpt-menu .has-child:focus ul {
     display: block;
 }
-.dpt-menu .has-child li:hover i {
+.dpt-menu .has-child li:hover, .dpt-menu .has-child li:focus i {
     display: block;
 }
 .dpt-menu .has-child li a {
     border-bottom: 1px solid var(--light-text-color2);
     color: var(--secondary-dark-color);
 }
-.dpt-menu .has-child li a:hover {
+.dpt-menu .has-child li a:hover,
+.dpt-menu .has-child li a:focus {
     text-decoration: none;
     padding-left: 20px;
     color: var(--dark-color);
@@ -431,7 +437,8 @@ form.search button {
     cursor: pointer;
     transition: var(--trans-background);
 }
-form.search button:hover {
+form.search button:hover,
+form.search button:focus {
     background-color: var(--dark-color);
 }
 
@@ -487,7 +494,8 @@ form.search button:hover {
     transition: var(--trans-background-color);
     cursor: pointer;
 }
-.t-close:hover {
+.t-close:hover,
+.t-close:focus {
     background-color: var(--white);
     color: var(--secondary-dark-color);
     opacity: .75;
@@ -565,7 +573,7 @@ form.search button:hover {
     transition: opacity .3s;
     height: 100px;
 }
-.brands .item a:hover img {
+.brands .item a:hover img, .brands .item a:focus img {
     opacity: 1;
 }
 
@@ -643,7 +651,7 @@ form.search button:hover {
     height: 100%;
     object-fit: cover;
 }
-.products :where(.image, .thumbnail):hover img {
+.products :where(.image, .thumbnail):hover img , .products :where(.image, .thumbnail):focus img{
     transform: scale(1.1);
 }
 
@@ -670,14 +678,17 @@ form.search button:hover {
     opacity: .5;
     transition: var(--trans-background-color), opacity .3s;
 }
-.products .item:hover .hoverable li a {
+.products .item:hover .hoverable li a, 
+.products .item:focus  .hoverable li a {
     opacity: 1;
 }
-.products .hoverable li a:hover {
+.products .hoverable li a:hover,
+.products .hoverable li a:focus {
     color: var(--white);
     background-color: var(--dark-color);
 }
-.products .hoverable li.active a:hover {
+.products .hoverable li.active a:hover,
+.products .hoverable li.active a:focus {
     background-color: var(--primary-color);
 } 
 .products .hoverable li:not(.active) {
@@ -685,7 +696,8 @@ form.search button:hover {
     opacity: 0;
     transition: transform .3s, opacity .2s;
 } 
-.products .item:hover .hoverable li {
+.products .item:hover .hoverable li, 
+.products .item:focus .hoverable li {
     transform: translateX(0);
     opacity: 1;
 }
@@ -743,7 +755,8 @@ form.search button:hover {
     text-overflow: ellipsis;
     max-width: 100%;
 }
-.products h3 a:hover {
+.products h3 a:hover,
+.products h3 a:focus {
     text-decoration: underline;
 }
 .products .price .current {
@@ -848,7 +861,8 @@ form.search button:hover {
     will-change: opacity;
     transition: all .2s ease-in-out;
 }
-.products.main .item:hover .footer {
+.products.main .item:hover .footer ,
+.products.main .item:focus .footer {
     opacity: 1;
     visibility: visible;
 }
@@ -859,7 +873,8 @@ form.search button:hover {
     border-top: 1px solid var(--border-color);
     margin-top: 145px;
 }
-.products.main .item:hover .content > *:not(.footer) {
+.products.main .item:hover .content > *:not(.footer),
+.products.main .item:focus .content > *:not(.footer) {
     z-index: 3;
 }
 .features {
@@ -947,7 +962,8 @@ form.search button:hover {
 .banners .second-links {
     margin-top: 2em;
 }
-.mini-links li a:hover {
+.mini-links li a:hover,
+.mini-links li a:focus {
     text-decoration: underline;
 }
 
@@ -1020,7 +1036,8 @@ form.search button:hover {
     margin: 0.25em;
     transition: var(--trans-background);
 }
-.footer-info ul li a:hover {
+.footer-info ul li a:hover,
+.footer-info ul li a:focus {
     background-color: var(--border-color);
 }
 .footer-info .logo a {
@@ -1057,7 +1074,8 @@ form.search button:hover {
     color: var(--light-text-color);
     transition: var(--trans-color);
 }
-.menu-bottom nav li a:hover {
+.menu-bottom nav li a:hover ,
+.menu-bottom nav li a:focus {
     color: var(--dark-color);
 }
 .menu-bottom nav li a span {
@@ -1098,7 +1116,8 @@ form.search button:hover {
     bottom: -54px;
     right: 0;
 }
-.search-bottom .t-close:hover {
+.search-bottom .t-close:hover, 
+.search-bottom .t-close:focus {
     background-color: var(--primary-color);
     cursor: pointer;
 }
@@ -1131,6 +1150,9 @@ form.search button:hover {
 * 15. RESPONSIVE 
 * ------------------------------*/
 @media screen and (max-width: 400px) {
+    html, body {
+        overflow-x: hidden; /* Extra safeguard for mobile */
+    }
     body {
         line-height: 1.4;
         margin: 0 !important;
@@ -1148,6 +1170,7 @@ form.search button:hover {
         position: relative;
         top: 70px;
         padding: 0 1em;
+        width: 100%;
     }
     .header-nav {
         padding: 1em 0;
@@ -1243,6 +1266,7 @@ form.search button:hover {
     }
     footer {
         padding-top: 3em;
+        width: 100%;
     }
     .footer-info {
         padding: 1em 0 4em;
@@ -1360,15 +1384,18 @@ form.search button:hover {
         padding: 1em 2.5em;
         cursor: pointer;
     }
-    nav .mega li:hover {
+    nav .mega li:hover,
+    nav .mega li:focus {
         background-color: var(--light-bg-color2);
         text-transform: scale(1.1);
     }
-    nav .mega li:hover a{
+    nav .mega li:hover a,
+      nav .mega li:focus a{
         transform: scale(1.1);
         color: var(--dark-color);
     }
-    nav li.has-child:hover .mega {
+    nav li.has-child:hover .mega,
+        nav li.has-child:focus .mega {
         display: block;
     }
     nav .fly-item {
@@ -1400,10 +1427,12 @@ form.search button:hover {
         border-bottom: 1px solid var(--border-color);
         color: var(--secondary-dark-color);
     }
-    .dpt-menu > ul > li:hover {
+    .dpt-menu > ul > li:hover,
+    .dpt-menu > ul > li:focus {
         background-color: var(--light-bg-color2);
     }
-    .dpt-menu > ul > li a:hover {
+    .dpt-menu > ul > li a:hover,
+    .dpt-menu > ul > li a:focus {
         color: var(--dark-color);
     }
     .dpt-menu .has-child > ul {
