@@ -1136,8 +1136,11 @@ form.search button:hover {
         line-height: 1.4;
         margin: 0 !important;
     }
+    .site {
+        padding: 0 1em;
+    }
     .header-nav {
-        padding: 0;
+        padding: 1em 0;
         margin-bottom: 0;
     }
     .trigger {
@@ -1196,6 +1199,9 @@ form.search button:hover {
     .features {
         margin-bottom: 1em;
     }
+    .banners {
+        margin-bottom: 2em;
+    }
     .banner .image img {
         height: 180px;
         width: 180px;
@@ -1235,7 +1241,9 @@ form.search button:hover {
         margin-block-start: 0 !important;
         margin-block-end: 0 !important;
     }
-    
+    .newsletter {
+        padding: 2em 1em;
+    }
     .menu-bottom {
         height: auto;
         padding: 10px 0;
