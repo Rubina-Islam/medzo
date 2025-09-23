@@ -1041,7 +1041,6 @@ form.search button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 60px;
     background-color: var(--white);
     box-shadow: 0 -2px 10px rgb(0 0 0 / 10%);
     z-index: 900;
@@ -1245,7 +1244,6 @@ form.search button:hover {
         padding: 2em 1em;
     }
     .menu-bottom {
-        height: auto;
         padding: 10px 0;
     }
     .menu-bottom .fly-item {
@@ -1439,4 +1437,3 @@ form.search button:hover {
         align-items: center;
     }
 }
-
