@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <div id="page" class="site">
+
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"><a href="">MEDZO</a></div>
+                    <div class="t-close flexcenter"><i class="ri-close-line"></i></div>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <!-- <div class="thetop-nav"></div> -->
+            </div>
+        </aside>
+
+
+        <!-- HEADER -->
+        <header>
+            <!-- <div class="header-top mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <ul class="flexitem main-links">
+                                <li><p>+88 0177777</p></li>
+                                <li><p>+02-0388882</p></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem main-links">
+                                <li><a href="">Register</a></li>
+                                <li><a href="">My account</a></li>
+                                <li><a href="">Order</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Header Top -->
+
+            <div class="header-nav">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <span class="trigger desktop-hide"><i class="i ri-menu-2-line"></i></span>
+                        <div class="left flexitem">
+                            <div class="logo"><a href="">MEDZO</a></div>
+                            <nav class="mobile-hide">
+                                <ul class="flexitem second-links">
+                                    <li><a href="#">Home</a></li>
+                                    <li class="has-child service">
+                                        <a href="#">Service
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <ul>
+                                                <li><a href="">Doctor</a></li>
+                                                <li><a href="">Therapist</a></li>
+                                                <li><a href="">Nurse</a></li>
+                                                <li><a href="">Caregiver</a></li>
+                                                <li><a href="">Nanny</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has-child product">
+                                        <a href="#">Product
+                                            <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
+                                        </a>
+                                        <div class="mega">
+                                            <ul>
+                                                <li><a href="">Oxygen</a></li>
+                                                <li><a href="">Hospital Bed</a></li>
+                                                <li><a href="">Wheel Chair</a></li>
+                                                <li><a href="">Mattress</a></li>
+                                                <li><a href="">BP Machine</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">Offer
+                                            <div class="fly-item"><span>New!</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right">
+                            <ul class="flexitem second-links">
+                                <li>
+                                    <a href="">Register</a>
+                                </li>
+                                <li>
+                                    <a href="">Login</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="isCart">
+                                        <div class="icon-large">
+                                            <i class="ri-shopping-cart-line"></i>
+                                            <div class="fly-item"><span class="item-number">0</span></div>
+                                        </div>
+                                        <div class="icon-text">
+                                            <div class="mini-text">Total</div>
+                                            <div class="cart-total">500 BDT</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-main mobile-hide">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="left">
+                            <div class="dpt-cat">
+                                <div class="dpt-head">
+                                    <div class="main-text">All Category</div>
+                                    <div class="mini-text mobile-hide">Total 1059 Products</div>
+                                    <a href="" class="dpt-trigger mobile-hide">
+                                        <i class="ri-menu-3-line ri-xl"></i>
+                                    </a>
+                                </div>
+                                <div class="dpt-menu">
+                                    <ul class="second-links">
+                                        <li class="has-child oxygen"> <!-- It has SUb categories -->
+                                            <a href="">Oxygen
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="">On Rent <i class="ri-arrow-right-double-line"></i></a></li>
+                                                <li><a href="">Medium <i class="ri-arrow-right-double-line"></i></a></li>
+                                                <li><a href="">Large <i class="ri-arrow-right-double-line"></i></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Wheel Chair
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                test kit
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">Mattress</a>
+                                        </li>
+                                        <li class="has-child bed">
+                                            <a href="">
+                                                Bed
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <ul>
+                                                <li><a href="">Electric <i class="ri-arrow-right-double-line"></i></a></li>
+                                                <li><a href="">Three Function <i class="ri-arrow-right-double-line"></i></a></li>
+                                                <li><a href="">Five Function <i class="ri-arrow-right-double-line"></i></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Mask
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="search-box">
+                                <form action="" class="search">
+                                    <span class="icon-large"><i class="ri-search-line"></i></span>
+                                    <input type="search" placeholder="Search for products">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>   <!-- HEADER END -->
+
+        <!-- MAIN -->
+        <main>
+            <!-- Slider Start-->
+            <div class="slider">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="myslider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="slide-img" src="assets/slider/slider1.jpg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="slide-img" src="assets/slider/slider2.jpg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#"><img class="slide-img" src="assets/slider/slider3.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Slider End-->
+
+            <!-- Brands Start-->
+            <div class="brands">
+                <div class="container">
+                    <div class="wrapper flexitem">
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/zara.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/oppo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/samsung.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/zara.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/oppo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/samsung.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/oppo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/brands/samsung.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Brands End-->
+
+            <!-- Trending Start-->
+            <div class="trending">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2>
+                                <span class="circle"></span>
+                                <span>Trending Products</span>
+                            </h2>
+                        </div>
+                        <div class="column">
+                            <div class="flexwrap">
+                                <div class="row products big">
+                                    <div class="item">
+                                        <div class="offer">
+                                            <p>Offer Ends At</p>
+                                            <ul class="flexcenter">
+                                                <li>1</li>
+                                                <li>15</li>
+                                                <li>27</li>
+                                                <li>60</li>
+                                            </ul>
+                                        </div>
+                                        <div class="media">
+                                            <div class="image">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="stock mini-text">
+                                                <div class="qty">
+                                                    <span>Stock: <strong class="qty-available">107</strong></span>
+                                                    <span>Sold: <strong class="qty-sold">3,050</strong></span>
+                                                </div>
+                                                <div class="bar">
+                                                    <div class="available"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row products mini">
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Offer Dress Offer at resonable price with multi functionality</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Offer</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Offer</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row products mini">
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Offer</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                                <p class="stock-danger">Stock: 2 Left !</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Offer</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="media">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <img src="assets/products/product1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="hoverable">
+                                                <ul>
+                                                    <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="discount circle flexcenter"><span>30%</span></div>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="main-links"><a href="">Summer Summer Offer Dress Offer at resonable price with multi functionality</a></h3>
+                                            
+                                            <div class="rating">
+                                                <div class="stars"></div>
+                                                <span class="mini-text">(2,548)</span>
+                                            </div>
+                                            <div class="price">
+                                                <span class="current">1200 Tk</span>
+                                                <span class="normal mini-text">800 Tk</span>
+                                            </div>
+                                            <div class="mini-text">
+                                                <p>2986 Sold</p>
+                                                <p>Free Shipping</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Trending End -->
+
+            <!-- Featured Product Start-->
+            <div class="features">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sectop flexitem">
+                            <h2>
+                                <span class="circle"></span>
+                                <span>Featured Products</span>
+                            </h2>
+                            <div class="second-links">
+                                <a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="column">
+                            <div class="products main flexwrap">
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                        <!-- Additional Structure-->
+                                         <div class="footer">
+                                            <ul class="mini-text">
+                                                <li>Polyester, Cotton</li>
+                                                <li>Pull On closure</li>
+                                                <li>Fashion Personality</li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="media">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="assets/products/product1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hoverable">
+                                            <ul>
+                                                <li class="active"><a href=""><i class="ri-heart-line"></i></a></li>
+                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
+                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="discount circle flexcenter"><span>30%</span></div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="rating">
+                                            <div class="stars"></div>
+                                            <span class="mini-text">(2,548)</span>
+                                        </div>
+                                        <h3 class="main-links"><a href="">Summer Dress Offer at resonable price with multi functionality</a></h3>
+                                        <div class="price">
+                                            <span class="current">1200 Tk</span>
+                                            <span class="normal mini-text">800 Tk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Featured Product End-->
+
+            <!-- Featured Product Start-->
+            <div class="banners">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="column">
+                            <div class="banner flexwrap">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="image">
+                                            <img src="assets/products/product1.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Summer Sale !</h4>
+                                            <h3><span>Get the deal in here</span><br>Oxygen Cylinder</h3>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item get-gray">
+                                        <div class="image">
+                                            <img src="assets/products/product1.jpg" alt="">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Summer Sale !</h4>
+                                            <h3><span>Get the deal in here</span><br>Oxygen Cylinder</h3>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>
+                                        <a href="#" class="over-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Featured Product End-->
+                        <!-- Categories Start-->
+                        <div class="product-categories flexwrap">
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="assets/products/product1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>Oxygen Cylinder</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Refill</a></li>
+                                            <li><a href="#">Buy</a></li>
+                                            <li><a href="#">Rent</a></li>
+                                        </ul>
+                                        <div class="second-links"><a href="#" class="view-all">View All <i class="ri-arrow-right-line"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="assets/products/product1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>Oxygen Cylinder</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Refill</a></li>
+                                            <li><a href="#">Buy</a></li>
+                                            <li><a href="#">Rent</a></li>
+                                        </ul>
+                                        <div class="second-links"><a href="#" class="view-all">View All <i class="ri-arrow-right-line"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item">
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="assets/products/product1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="content mini-links">
+                                        <h4>Oxygen Cylinder</h4>
+                                        <ul class="flexcol">
+                                            <li><a href="#">Refill</a></li>
+                                            <li><a href="#">Buy</a></li>
+                                            <li><a href="#">Rent</a></li>
+                                        </ul>
+                                        <div class="second-links"><a href="#" class="view-all">View All <i class="ri-arrow-right-line"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>  
+           
+            
+
+
+            
+
+        </main>     <!-- MAIN END -->
+
+        <!-- FOOTER -->
+        <footer>
+            <!-- NEWSLETTER START -->
+            <div class="newsletter">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="box">
+                            <div class="content">
+                                <h3>Join Our Newsletter</h3>
+                                <p>Get E-mail updates about our latest shop and <strong>Special offers</strong></p>
+                            </div>
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="ri-mail-line"></i></span>
+                                <input type="mail" placeholder="Your Email Address" required>
+                                <button type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>  <!-- NEWSLETTER END -->
+
+            <!-- WIDGET START -->
+            <div class="widgets">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexwrap">
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Help & Contact</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Your Account</a></li>
+                                        <li><a href="#">Your Orders</a></li>
+                                        <li><a href="#">Shipping Rates</a></li>
+                                        <li><a href="#">Returns</a></li>
+                                        <li><a href="#">Assistant</a></li>
+                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Product Categories</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Oxygen</a></li>
+                                        <li><a href="#">Mask</a></li>
+                                        <li><a href="#">Bed</a></li>
+                                        <li><a href="#">bp Machine</a></li>
+                                        <li><a href="#" class="view-all">View All<i class="ri-arrow-right-line"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>Payment Info</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="#">Cash On Delivery</a></li>
+                                        <li><a href="#">Bank</a></li>
+                                        <li><a href="#">Bkash</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="item mini-links">
+                                    <h4>About us</h4>
+                                    <ul class="flexcol">
+                                        <li><a href="">Conpany Info</a></li>
+                                        <li><a href="">Terms & Conditions</a></li>
+                                        <li><a href="">Customer Reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- WIDGET END -->
+            <!-- WIDGET START -->
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol">
+                            <div class="logo"><a href="">MEDZO</a></div>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-tiktok-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-linkedin-line"></i></a></li>
+                                    <li><a href="#"><i class="ri-youtube-line"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mini-text">Copyright 2025 &#169; .MEDZO. All rights reserved. Developed by <a href="#">Rubina Islam</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>   <!-- FOOTER END -->
+        
+        <!-- Menu Bottom Start -->
+        <div class="menu-bottom desktop-hide">
+            <div class="container">
+                <div class="wrapper">
+                    <nav>
+                        <ul class="flexitem">
+                            <li>
+                                <a href="#">
+                                    <i class="ri-bar-chart-line"></i>
+                                    <span>Trending</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="t-search">
+                                    <i class="ri-search-line"></i>
+                                    <span>Search</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0">
+                                    <i class="ri-shopping-cart-line"></i>
+                                    <span>Cart</span>
+                                    <div class="fly-item">
+                                        <span class="item-number">0</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-user-6-line"></i>
+                                    <span>Account</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>  <!-- Menu Bottom End -->
+
+        <!-- Search Bottom Start -->
+        <div class="search-bottom desktop-hide">
+            <div class="container">
+                <div class="wrapper">
+                    <form action="" class="search">
+                        <div class="t-close search-close flexcenter">
+                            <i class="ri-close-line"></i>
+                        </div>
+                        <span class="icon-large"><i class="ri-search-line"></i></span>
+                        <input type="search" placeholder="Search..." required>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- Search Bottom End -->
+
+        <!-- Overlay Start -->
+        <div class="overlay"></div> <!-- Overlay End -->
+
+    </div>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
