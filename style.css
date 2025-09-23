@@ -1131,7 +1131,124 @@ form.search button:hover {
 /* -----------------------------
 * 15. RESPONSIVE 
 * ------------------------------*/
+@media screen and (max-width: 400px) {
+    body {
+        line-height: 1.4;
+        margin: 0 !important;
+    }
+    .header-nav {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .trigger {
+        padding: 0;
+    }
+    .header-nav .logo a {
+        padding-left: 0; 
+        margin-right: 0;
+    }
+    .header-nav .right .icon-large {
+        margin: 0 ;
+        padding: 0 0.5em ;
+    }
+    .header-nav .right .fly-item {
+        top: 0;
+        right: 8px;
+        outline: 2px solid white;
+    }
+    .flexitem .second-links li:first-child {
+        display: none;
+    }
 
+    .brands .wrapper {
+        padding: 1em 0 ;
+    }
+    .brands .item img {
+        height: 50px;
+    }
+    .sectop {
+        padding-bottom: 0 ;
+        margin-bottom: 0;
+    }
+    .sectop .circle {
+        margin-top: 3px;
+        height: 15px;
+        width: 15px;
+    }
+    .sectop h2 {
+        font-size: 1em;
+    }
+    .products.big .item {
+        padding: 2em;
+    }
+    .products .offer {
+        margin-bottom: 0;
+    }
+    .products .offer p {
+        margin-bottom: 0;
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+    }
+    .products .offer ul {
+        margin-block-start: 0 !important;
+        margin-block-end: 0.5em !important;
+    }
+    .features {
+        margin-bottom: 1em;
+    }
+    .banner .image img {
+        height: 180px;
+        width: 180px;
+    }
+    .banner .text-content {
+        padding: 1.5em ;
+    }
+    .banners .column .row{
+        padding: 0 0.938em;
+    }
+    .banners .flexwrap .row:first-child {
+        margin-bottom: 1em;
+    }
+    .banners .product-categories .row {
+        margin-bottom: 0.5em !important;
+    }
+    .banners .product-categories .item {
+        padding: 1em;
+    }
+    .banners .product-categories .item .mini-links{
+        padding-top: 0.5em;
+    }
+    .widgets {
+        padding: 2em 0 1em 0;
+    }
+    .widgets .row {
+        flex: 0 0 50%;
+        margin-bottom: 1em !important;
+    }
+    .footer-info {
+        padding: 1em 0 4em;
+    }
+    .footer-info .logo a {
+        margin: 0 0 0 -0.75em;
+    }
+    .footer-info .flexitem {
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+    }
+    
+    .menu-bottom {
+        height: auto;
+        padding: 10px 0;
+    }
+    .container {
+    margin: 0 auto;
+    }
+    .container .flexitem {
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+    }
+
+}
 @media screen and (min-width: 400px) {
 
     .products.main .item {
