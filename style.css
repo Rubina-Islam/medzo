@@ -508,15 +508,30 @@ form.search button:focus {
     background-color: var(--light-bg-color);
     border-radius: 7px 7px 0 0;
 }
-.off-canvas .has-child > :where(ul, .mega) {
+.off-canvas .has-child > :where(ul) {
     font-size: var(--font-small);
     font-weight: var(--fw3);
     line-height: 28px;
-    padding-left: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
     height: auto;
     max-height: 0;
     overflow: hidden;
     transition: max-height .3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.off-canvas .has-child > :where(.mega) {
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    line-height: 28px;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.off-canvas .has-child > :where(.mega) li{
+    border-bottom: 1px solid var(--light-text-color2); 
 }
 .off-canvas .expand > :where(ul, .mega) {
     max-height: 2000px;
@@ -532,7 +547,6 @@ form.search button:focus {
 }
 .off-canvas nav .mega {
     padding: 0;
-    display: none;
 }
 .off-canvas .has-child .icon-small {
     padding: 0.5em;
