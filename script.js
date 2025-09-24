@@ -73,3 +73,39 @@ searchButton.addEventListener('click', function() {
 tClose.addEventListener('click', function() {
   showClass.classList.remove('showsearch')
 })
+
+
+
+
+
+// Get the button
+let mybutton = document.getElementById("scrollToTopBtn");
+let headerNav = document.getElementById("header");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        headerNav.style.height = "70px";
+        headerNav.style.paddingTop = "0px";
+        headerNav.style.paddingBottom = "5px";
+    } else {
+        mybutton.style.display = "none";
+        headerNav.style.height = "80px";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Smooth scroll effect
+    });
+}
+
+
